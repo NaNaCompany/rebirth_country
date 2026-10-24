@@ -1,0 +1,1599 @@
+{
+  "checkedAt": "2026-10-24",
+  "source": "https://passport2liberty.org/passport-colors",
+  "method": "Current ordinary passport cover color families; approximate display colors. Not a government color specification.",
+  "countries": [
+    {
+      "code": "IN",
+      "name": "인도",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CN",
+      "name": "중국",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "US",
+      "name": "미국",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ID",
+      "name": "인도네시아",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PK",
+      "name": "파키스탄",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NG",
+      "name": "나이지리아",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BR",
+      "name": "브라질",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BD",
+      "name": "방글라데시",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RU",
+      "name": "러시아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MX",
+      "name": "멕시코",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JP",
+      "name": "일본",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PH",
+      "name": "필리핀",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CD",
+      "name": "콩고 민주 공화국",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ET",
+      "name": "에티오피아",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EG",
+      "name": "이집트",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VN",
+      "name": "베트남",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IR",
+      "name": "이란",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TR",
+      "name": "터키",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DE",
+      "name": "독일",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GB",
+      "name": "영국",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": "https://www.gov.uk/government/publications/types-of-british-passports-caseworker-guidance/types-of-british-passports-accessible"
+    },
+    {
+      "code": "TZ",
+      "name": "탄자니아",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FR",
+      "name": "프랑스",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TH",
+      "name": "태국",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZA",
+      "name": "남아프리카 공화국",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IT",
+      "name": "이탈리아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KE",
+      "name": "케냐",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CO",
+      "name": "콜롬비아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SD",
+      "name": "수단",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MM",
+      "name": "미얀마",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KR",
+      "name": "한국",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148900221"
+    },
+    {
+      "code": "ES",
+      "name": "스페인",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DZ",
+      "name": "알제리",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AR",
+      "name": "아르헨티나",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IQ",
+      "name": "이라크",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UG",
+      "name": "우간다",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AF",
+      "name": "아프가니스탄",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CA",
+      "name": "캐나다",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UZ",
+      "name": "우즈베키스탄",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PL",
+      "name": "폴란드",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MA",
+      "name": "모로코",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AO",
+      "name": "앙골라",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SA",
+      "name": "사우디아라비아",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PE",
+      "name": "페루",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MY",
+      "name": "말레이시아",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MZ",
+      "name": "모잠비크",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GH",
+      "name": "가나",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UA",
+      "name": "우크라이나",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "YE",
+      "name": "예멘",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MG",
+      "name": "마다가스카르",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CI",
+      "name": "코트디부아르",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NP",
+      "name": "네팔",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CM",
+      "name": "카메룬",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VE",
+      "name": "베네수엘라",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AU",
+      "name": "호주",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NE",
+      "name": "니제르",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KP",
+      "name": "조선",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SY",
+      "name": "시리아",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BF",
+      "name": "부르키나파소",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TW",
+      "name": "대만",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ML",
+      "name": "말리",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LK",
+      "name": "스리랑카",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MW",
+      "name": "말라위",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KZ",
+      "name": "카자흐스탄",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CL",
+      "name": "칠레",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZM",
+      "name": "잠비아",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SO",
+      "name": "소말리아",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TD",
+      "name": "차드",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RO",
+      "name": "루마니아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SN",
+      "name": "세네갈",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EC",
+      "name": "에콰도르",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NL",
+      "name": "네덜란드",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GT",
+      "name": "과테말라",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KH",
+      "name": "캄보디아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZW",
+      "name": "짐바브웨",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SS",
+      "name": "남수단",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GN",
+      "name": "기니",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RW",
+      "name": "르완다",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BJ",
+      "name": "베냉",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BI",
+      "name": "부룬디",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TN",
+      "name": "튀니지",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HT",
+      "name": "아이티",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BE",
+      "name": "벨기에",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PG",
+      "name": "파푸아뉴기니",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JO",
+      "name": "요르단",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BO",
+      "name": "볼리비아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AE",
+      "name": "아랍에미리트",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CZ",
+      "name": "체코",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DO",
+      "name": "도미니카 공화국",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PT",
+      "name": "포르투갈",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SE",
+      "name": "스웨덴",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TJ",
+      "name": "타지키스탄",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GR",
+      "name": "그리스",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AZ",
+      "name": "아제르바이잔",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IL",
+      "name": "이스라엘",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HN",
+      "name": "온두라스",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CU",
+      "name": "쿠바",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HU",
+      "name": "헝가리",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AT",
+      "name": "오스트리아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BY",
+      "name": "벨라루스",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CH",
+      "name": "스위스",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SL",
+      "name": "시에라리온",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TG",
+      "name": "토고",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LA",
+      "name": "라오스",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HK",
+      "name": "홍콩",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LY",
+      "name": "리비아",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KG",
+      "name": "키르기스스탄",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TM",
+      "name": "투르크메니스탄",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NI",
+      "name": "니카라과",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RS",
+      "name": "세르비아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CF",
+      "name": "중앙아프리카 공화국",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BG",
+      "name": "불가리아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CG",
+      "name": "콩고",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SG",
+      "name": "싱가포르",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PY",
+      "name": "파라과이",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SV",
+      "name": "엘살바도르",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DK",
+      "name": "덴마크",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FI",
+      "name": "핀란드",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NO",
+      "name": "노르웨이",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LB",
+      "name": "레바논",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PS",
+      "name": "팔레스타인",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IE",
+      "name": "아일랜드",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SK",
+      "name": "슬로바키아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "OM",
+      "name": "오만",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NZ",
+      "name": "뉴질랜드",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CR",
+      "name": "코스타리카",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LR",
+      "name": "라이베리아",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MR",
+      "name": "모리타니",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KW",
+      "name": "쿠웨이트",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PA",
+      "name": "파나마",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GE",
+      "name": "조지아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HR",
+      "name": "크로아티아",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ER",
+      "name": "에리트레아",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MN",
+      "name": "몽골",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UY",
+      "name": "우루과이",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BA",
+      "name": "보스니아 헤르체고비나",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "QA",
+      "name": "카타르",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AM",
+      "name": "아르메니아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NA",
+      "name": "나미비아",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LT",
+      "name": "리투아니아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JM",
+      "name": "자메이카",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MD",
+      "name": "몰도바",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GA",
+      "name": "가봉",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GM",
+      "name": "감비아",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AL",
+      "name": "알바니아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BW",
+      "name": "보츠와나",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SI",
+      "name": "슬로베니아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LS",
+      "name": "레소토",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LV",
+      "name": "라트비아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MK",
+      "name": "북마케도니아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GW",
+      "name": "기니비사우",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GQ",
+      "name": "적도 기니",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BH",
+      "name": "바레인",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "XK",
+      "name": "코소보",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CY",
+      "name": "키프로스",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TL",
+      "name": "동티모르",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EE",
+      "name": "에스토니아",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TT",
+      "name": "트리니다드 토바고",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MU",
+      "name": "모리셔스",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SZ",
+      "name": "에스와티니",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DJ",
+      "name": "지부티",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KM",
+      "name": "코모로",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FJ",
+      "name": "피지",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BT",
+      "name": "부탄",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GY",
+      "name": "가이아나",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SB",
+      "name": "솔로몬 제도",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MO",
+      "name": "마카오",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LU",
+      "name": "룩셈부르크",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ME",
+      "name": "몬테네그로",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SR",
+      "name": "수리남",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MT",
+      "name": "몰타",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MV",
+      "name": "몰디브",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CV",
+      "name": "카보베르데",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BN",
+      "name": "브루나이",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BZ",
+      "name": "벨리즈",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BS",
+      "name": "바하마",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IS",
+      "name": "아이슬란드",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VU",
+      "name": "바누아투",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BB",
+      "name": "바베이도스",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ST",
+      "name": "상투메 프린시페",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "WS",
+      "name": "사모아",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LC",
+      "name": "세인트루시아",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SC",
+      "name": "세이셸",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KI",
+      "name": "키리바시",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VC",
+      "name": "세인트빈센트 그레나딘",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GD",
+      "name": "그레나다",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FM",
+      "name": "미크로네시아",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AG",
+      "name": "앤티가 바부다",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TO",
+      "name": "통가",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AD",
+      "name": "안도라",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DM",
+      "name": "도미니카",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KN",
+      "name": "세인트키츠 네비스",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MH",
+      "name": "마셜 제도",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LI",
+      "name": "리히텐슈타인",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MC",
+      "name": "모나코",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SM",
+      "name": "산마리노",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PW",
+      "name": "팔라우",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NR",
+      "name": "나우루",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TV",
+      "name": "투발루",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VA",
+      "name": "바티칸",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    }
+  ]
+}

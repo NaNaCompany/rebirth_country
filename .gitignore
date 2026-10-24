@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.codex/
+AGENTS.md
+RTK.md
+.tools/
+*.log
