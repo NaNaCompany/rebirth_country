@@ -12,7 +12,7 @@ const all = await read('data/countries-source.json');
 const regions = {Asia:'아시아',Europe:'유럽',Africa:'아프리카',Americas:'아메리카',Oceania:'오세아니아'};
 const countries = all.filter(c=>colors.has(c.cca2)&&c.population>0).map(c=>({code:c.cca2,name:c.translations?.kor?.common||c.name.common,english:c.name.common,population:c.population,region:regions[c.region]||c.region,capital:c.capital?.[0]||'—',latlng:c.latlng,color:palette[colors.get(c.cca2)],family:colors.get(c.cca2),colorName:colorNames[colors.get(c.cca2)]})).sort((a,b)=>b.population-a.population);
 if(countries.length!==199) throw new Error(`Country mapping incomplete: ${countries.length}`);
-const base=(process.env.SITE_URL||'https://nanacompany.github.io/rebirth_country').replace(/\/$/,'');
+const base=(process.env.SITE_URL||'https://nanalab.kr/rebirth_country').replace(/\/$/,'');
 await rm('dist',{recursive:true,force:true});await mkdir('dist/og',{recursive:true});await mkdir('dist/r',{recursive:true});
 await cp('src','dist',{recursive:true});
 await writeFile('dist/countries.json',JSON.stringify(countries));

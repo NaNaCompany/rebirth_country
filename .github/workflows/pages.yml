@@ -21,7 +21,11 @@ jobs:
           cache: npm
       - run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
       - run: npm ci
+      - uses: actions/configure-pages@v5
+        id: pages
       - run: npm run build
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
       - run: npm test
       - uses: actions/upload-pages-artifact@v3
         with:
