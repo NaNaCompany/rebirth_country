@@ -4,3 +4,5 @@
 
 /* Keep decorative orbital paths inside the page at every width. */
 .shell{overflow:clip}
+
+.credit-status{text-align:center;color:var(--blue);font-size:12px;margin:18px 0 6px}.share-rule{text-align:center;color:var(--muted);font-size:10px;line-height:1.7}.retry:disabled{cursor:default;opacity:.55}
