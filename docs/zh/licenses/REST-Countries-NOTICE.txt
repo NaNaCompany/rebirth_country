@@ -1,0 +1,17 @@
+REST Countries data notice
+
+Source: https://github.com/restcountries/restcountries/blob/master/src/main/resources/countriesV3.1.json
+Retrieved: 2026-10-24
+License: Mozilla Public License 2.0. Full license: REST-Countries-MPL-2.0.txt
+
+Original source snapshot:
+https://github.com/NaNaCompany/rebirth_country/blob/main/data/countries-source.json
+
+Modifications: selected 199 passport-issuing countries/territories; selected and
+renamed fields for the game; added display color labels; sorted by population.
+The resulting data is served at countries.json. Original data and data derived
+from it remain available under MPL-2.0. This notice does not relicense unrelated
+application code, passport artwork, or other third-party material.
+
+Transformation source:
+https://github.com/NaNaCompany/rebirth_country/blob/main/scripts/build.mjs

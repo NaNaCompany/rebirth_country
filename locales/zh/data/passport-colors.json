@@ -1,0 +1,1599 @@
+{
+  "checkedAt": "2026-10-24",
+  "source": "https://passport2liberty.org/passport-colors",
+  "method": "Current ordinary passport cover color families; approximate display colors. Not a government color specification.",
+  "countries": [
+    {
+      "code": "IN",
+      "name": "印度",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "US",
+      "name": "美国",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ID",
+      "name": "印度尼西亚",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PK",
+      "name": "巴基斯坦",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NG",
+      "name": "尼日利亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BR",
+      "name": "巴西",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BD",
+      "name": "孟加拉国",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RU",
+      "name": "俄罗斯",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MX",
+      "name": "墨西哥",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JP",
+      "name": "日本",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PH",
+      "name": "菲律宾",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CD",
+      "name": "民主刚果",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ET",
+      "name": "埃塞俄比亚",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EG",
+      "name": "埃及",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VN",
+      "name": "越南",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IR",
+      "name": "伊朗",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TR",
+      "name": "土耳其",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DE",
+      "name": "德国",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GB",
+      "name": "英国",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": "https://www.gov.uk/government/publications/types-of-british-passports-caseworker-guidance/types-of-british-passports-accessible"
+    },
+    {
+      "code": "TZ",
+      "name": "坦桑尼亚",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FR",
+      "name": "法国",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TH",
+      "name": "泰国",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZA",
+      "name": "南非",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IT",
+      "name": "意大利",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KE",
+      "name": "肯尼亚",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CO",
+      "name": "哥伦比亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SD",
+      "name": "苏丹",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MM",
+      "name": "缅甸",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KR",
+      "name": "韩国",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148900221"
+    },
+    {
+      "code": "ES",
+      "name": "西班牙",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DZ",
+      "name": "阿尔及利亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AR",
+      "name": "阿根廷",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IQ",
+      "name": "伊拉克",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UG",
+      "name": "乌干达",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AF",
+      "name": "阿富汗",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CA",
+      "name": "加拿大",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UZ",
+      "name": "乌兹别克斯坦",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PL",
+      "name": "波兰",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MA",
+      "name": "摩洛哥",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AO",
+      "name": "安哥拉",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SA",
+      "name": "沙特阿拉伯",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PE",
+      "name": "秘鲁",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MY",
+      "name": "马来西亚",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MZ",
+      "name": "莫桑比克",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GH",
+      "name": "加纳",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UA",
+      "name": "乌克兰",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "YE",
+      "name": "也门",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MG",
+      "name": "马达加斯加",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CI",
+      "name": "科特迪瓦",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NP",
+      "name": "尼泊尔",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CM",
+      "name": "喀麦隆",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VE",
+      "name": "委内瑞拉",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AU",
+      "name": "澳大利亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NE",
+      "name": "尼日尔",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KP",
+      "name": "朝鲜",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SY",
+      "name": "叙利亚",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BF",
+      "name": "布基纳法索",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ML",
+      "name": "马里",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LK",
+      "name": "斯里兰卡",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MW",
+      "name": "马拉维",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KZ",
+      "name": "哈萨克斯坦",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CL",
+      "name": "智利",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZM",
+      "name": "赞比亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SO",
+      "name": "索马里",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TD",
+      "name": "乍得",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RO",
+      "name": "罗马尼亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SN",
+      "name": "塞内加尔",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EC",
+      "name": "厄瓜多尔",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NL",
+      "name": "荷兰",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GT",
+      "name": "危地马拉",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KH",
+      "name": "柬埔寨",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZW",
+      "name": "津巴布韦",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SS",
+      "name": "南苏丹",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GN",
+      "name": "几内亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RW",
+      "name": "卢旺达",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BJ",
+      "name": "贝宁",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BI",
+      "name": "布隆迪",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TN",
+      "name": "突尼斯",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HT",
+      "name": "海地",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BE",
+      "name": "比利时",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PG",
+      "name": "巴布亚新几内亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JO",
+      "name": "约旦",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BO",
+      "name": "玻利维亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AE",
+      "name": "阿拉伯联合酋长国",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CZ",
+      "name": "捷克",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DO",
+      "name": "多明尼加",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PT",
+      "name": "葡萄牙",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SE",
+      "name": "瑞典",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TJ",
+      "name": "塔吉克斯坦",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GR",
+      "name": "希腊",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AZ",
+      "name": "阿塞拜疆",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IL",
+      "name": "以色列",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HN",
+      "name": "洪都拉斯",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CU",
+      "name": "古巴",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HU",
+      "name": "匈牙利",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AT",
+      "name": "奥地利",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BY",
+      "name": "白俄罗斯",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CH",
+      "name": "瑞士",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SL",
+      "name": "塞拉利昂",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TG",
+      "name": "多哥",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LA",
+      "name": "老挝",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LY",
+      "name": "利比亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KG",
+      "name": "吉尔吉斯斯坦",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TM",
+      "name": "土库曼斯坦",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NI",
+      "name": "尼加拉瓜",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RS",
+      "name": "塞尔维亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CF",
+      "name": "中非共和国",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BG",
+      "name": "保加利亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CG",
+      "name": "刚果",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PY",
+      "name": "巴拉圭",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SV",
+      "name": "萨尔瓦多",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DK",
+      "name": "丹麦",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FI",
+      "name": "芬兰",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NO",
+      "name": "挪威",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LB",
+      "name": "黎巴嫩",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PS",
+      "name": "巴勒斯坦",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IE",
+      "name": "爱尔兰",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SK",
+      "name": "斯洛伐克",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "OM",
+      "name": "阿曼",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NZ",
+      "name": "新西兰",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CR",
+      "name": "哥斯达黎加",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LR",
+      "name": "利比里亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MR",
+      "name": "毛里塔尼亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KW",
+      "name": "科威特",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PA",
+      "name": "巴拿马",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GE",
+      "name": "格鲁吉亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HR",
+      "name": "克罗地亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ER",
+      "name": "厄立特里亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MN",
+      "name": "蒙古",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UY",
+      "name": "乌拉圭",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BA",
+      "name": "波斯尼亚和黑塞哥维那",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "QA",
+      "name": "卡塔尔",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AM",
+      "name": "亚美尼亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NA",
+      "name": "纳米比亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LT",
+      "name": "立陶宛",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JM",
+      "name": "牙买加",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MD",
+      "name": "摩尔多瓦",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GA",
+      "name": "加蓬",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GM",
+      "name": "冈比亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AL",
+      "name": "阿尔巴尼亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BW",
+      "name": "博茨瓦纳",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SI",
+      "name": "斯洛文尼亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LS",
+      "name": "莱索托",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LV",
+      "name": "拉脱维亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MK",
+      "name": "北馬其頓",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GW",
+      "name": "几内亚比绍",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GQ",
+      "name": "赤道几内亚",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BH",
+      "name": "巴林",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "XK",
+      "name": "科索沃",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CY",
+      "name": "塞浦路斯",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TL",
+      "name": "东帝汶",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EE",
+      "name": "爱沙尼亚",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TT",
+      "name": "特立尼达和多巴哥",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MU",
+      "name": "毛里求斯",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SZ",
+      "name": "斯威士兰",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DJ",
+      "name": "吉布提",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KM",
+      "name": "科摩罗",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FJ",
+      "name": "斐济",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BT",
+      "name": "不丹",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GY",
+      "name": "圭亚那",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SB",
+      "name": "所罗门群岛",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MO",
+      "name": "Macau",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LU",
+      "name": "卢森堡",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ME",
+      "name": "黑山",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SR",
+      "name": "苏里南",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MT",
+      "name": "马耳他",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MV",
+      "name": "马尔代夫",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CV",
+      "name": "佛得角",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BN",
+      "name": "文莱",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BZ",
+      "name": "伯利兹",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BS",
+      "name": "巴哈马",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IS",
+      "name": "冰岛",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VU",
+      "name": "瓦努阿图",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BB",
+      "name": "巴巴多斯",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ST",
+      "name": "圣多美和普林西比",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "WS",
+      "name": "萨摩亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LC",
+      "name": "圣卢西亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SC",
+      "name": "塞舌尔",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KI",
+      "name": "基里巴斯",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VC",
+      "name": "圣文森特和格林纳丁斯",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GD",
+      "name": "格林纳达",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FM",
+      "name": "密克罗尼西亚",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AG",
+      "name": "安提瓜和巴布达",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TO",
+      "name": "汤加",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AD",
+      "name": "安道尔",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DM",
+      "name": "多米尼加",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KN",
+      "name": "圣基茨和尼维斯",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MH",
+      "name": "马绍尔群岛",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LI",
+      "name": "列支敦士登",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MC",
+      "name": "摩纳哥",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SM",
+      "name": "圣马力诺",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PW",
+      "name": "帕劳",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NR",
+      "name": "瑙鲁",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TV",
+      "name": "图瓦卢",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VA",
+      "name": "梵蒂冈",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    }
+  ]
+}

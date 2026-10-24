@@ -5,3 +5,6 @@ AGENTS.md
 RTK.md
 .tools/
 *.log
+
+locales/*/docs/
+locales/*/node_modules/
