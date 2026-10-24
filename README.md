@@ -15,7 +15,7 @@ Node.js 22 이상. `npm ci` → `npm run build` → `npm run dev`.
 - `/r/KR/`처럼 나라별 결과 주소. 모드·제외 목록은 URL에 포함.
 - 국가별 정적 HTML + 1200×630 JPG OG 199종, 기본 OG 1종 (기존 PNG 주소도 호환 유지). JS 실행 없이 크롤러가 메타데이터를 읽을 수 있음.
 - 네이티브 공유 → 지원 안 되면 링크 복사. 카톡에는 결과 링크를 붙여넣으면 됨. Kakao SDK/App Key를 쓰는 직접 카톡 버튼은 아님.
-- JPG 이미지 다운로드 또는 모바일 파일 공유. OG에는 기본 인구 비례 확률(국가 제외 전)을 표기. 본사이트와 동일한 Google Tag Manager·Google Analytics·Google AdSense·Cloudflare Web Analytics 삽입. 추첨 설정은 브라우저에 보관.
+- JPG 이미지 직접 다운로드. OG에는 기본 인구 비례 확률(국가 제외 전)을 표기. 본사이트와 동일한 Google Tag Manager·Google Analytics·Google AdSense·Cloudflare Web Analytics 삽입. 추첨 설정은 브라우저에 보관.
 
 ## 배포
 
