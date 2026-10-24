@@ -33,6 +33,9 @@ GitHub Pages: Settings → Pages → Source를 **Deploy from a branch**, 브랜�
 - 추가 공식 대조: 한국 남색 [대한민국 정책브리핑](https://www.korea.kr/briefing/policyBriefingView.do?newsId=148900221), 영국 청색 [GOV.UK](https://www.gov.uk/government/publications/types-of-british-passports-caseworker-guidance/types-of-british-passports-accessible). 전체 199종을 개별 정부 자료로 교차 검증한 것은 아님. 구형·신형·유효기간별 여권 색상이 다를 수 있음.
 - 독자 여권이 없는 영토는 추첨에서 제외. 홍콩·마카오 등 독자 여권 발급 지역은 포함. 국적 취득·실제 환생·출생 통계 예측 서비스가 아님.
 - 지도: [world-atlas](https://github.com/topojson/world-atlas), Natural Earth public domain.
-- 아이디어 참고: [Random Life](https://randomlife.chaechae.life/). 원본 코드·브랜드·디자인 복사 없이 새 구현.
 
 여권의 국가 문장·보안 요소는 복제하지 않음. 모든 표지는 자체 지구본 문양을 쓴 환생 기념 디자인.
+
+## 제3자 자료 공시
+
+공개 데이터 출처·오픈소스 사용 내역 및 라이선스 전문은 사이트 하단 공시와 `src/licenses/`에 제공한다. 원본 MPL 데이터는 위 저장소 경로에서 내려받을 수 있다. 권리·구현 검토 범위는 `RIGHTS_REVIEW.md`에 기록한다.
