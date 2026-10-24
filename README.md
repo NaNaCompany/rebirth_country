@@ -19,9 +19,9 @@ Node.js 22 이상. `npm ci` → `npm run build` → `npm run dev`.
 
 ## 배포
 
-`dist/`를 정적 호스팅. 기본 공개 URL은 조직의 Pages 도메인을 반영한 `https://nanalab.kr/rebirth_country`.
+빌드 결과인 `docs/`를 저장소에 함께 커밋. 기본 공개 URL은 조직의 Pages 도메인을 반영한 `https://nanalab.kr/rebirth_country`.
 다른 도메인은 빌드 전에 `SITE_URL` 환경변수를 설정. 결과 페이지와 OG의 절대 URL이 함께 변경됨.
-GitHub Pages를 쓸 때 `.github/workflows/pages.yml`이 빌드·테스트·배포하며 저장소 Settings → Pages → Source를 GitHub Actions로 지정.
+GitHub Pages: Settings → Pages → Source를 **Deploy from a branch**, 브랜치 **main**, 폴더 **/docs**로 지정. 별도 Actions 빌드 불필요. 수정 후 `npm run build` → `npm test` → `docs/` 포함 커밋·푸시.
 비공개 미리보기나 localhost에서는 카톡 크롤러가 OG를 읽을 수 없음. 공개 배포 후 실제 카톡으로 결과 링크를 보내 수신 화면을 확인해야 공유 기능의 실서비스 검증이 완료됨.
 
 ## 데이터와 조사 범위
