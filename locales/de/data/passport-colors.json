@@ -1,0 +1,1599 @@
+{
+  "checkedAt": "2026-10-24",
+  "source": "https://passport2liberty.org/passport-colors",
+  "method": "Current ordinary passport cover color families; approximate display colors. Not a government color specification.",
+  "countries": [
+    {
+      "code": "IN",
+      "name": "Indien",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "US",
+      "name": "Vereinigte Staaten",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ID",
+      "name": "Indonesien",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BR",
+      "name": "Brasilien",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesch",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RU",
+      "name": "Russland",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MX",
+      "name": "Mexiko",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PH",
+      "name": "Philippinen",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CD",
+      "name": "Kongo (Dem. Rep.)",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ET",
+      "name": "Äthiopien",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EG",
+      "name": "Ägypten",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TR",
+      "name": "Türkei",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DE",
+      "name": "Deutschland",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GB",
+      "name": "Vereinigtes Königreich",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": "https://www.gov.uk/government/publications/types-of-british-passports-caseworker-guidance/types-of-british-passports-accessible"
+    },
+    {
+      "code": "TZ",
+      "name": "Tansania",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FR",
+      "name": "Frankreich",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZA",
+      "name": "Südafrika",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IT",
+      "name": "Italien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KE",
+      "name": "Kenia",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CO",
+      "name": "Kolumbien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KR",
+      "name": "Südkorea",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148900221"
+    },
+    {
+      "code": "ES",
+      "name": "Spanien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DZ",
+      "name": "Algerien",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AR",
+      "name": "Argentinien",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IQ",
+      "name": "Irak",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CA",
+      "name": "Kanada",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UZ",
+      "name": "Usbekistan",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PL",
+      "name": "Polen",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MA",
+      "name": "Marokko",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SA",
+      "name": "Saudi-Arabien",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MZ",
+      "name": "Mosambik",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "YE",
+      "name": "Jemen",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MG",
+      "name": "Madagaskar",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CI",
+      "name": "Elfenbeinküste",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CM",
+      "name": "Kamerun",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AU",
+      "name": "Australien",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KP",
+      "name": "Nordkorea",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SY",
+      "name": "Syrien",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KZ",
+      "name": "Kasachstan",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZM",
+      "name": "Sambia",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TD",
+      "name": "Tschad",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RO",
+      "name": "Rumänien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NL",
+      "name": "Niederlande",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KH",
+      "name": "Kambodscha",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ZW",
+      "name": "Simbabwe",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SS",
+      "name": "Südsudan",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RW",
+      "name": "Ruanda",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TN",
+      "name": "Tunesien",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BE",
+      "name": "Belgien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PG",
+      "name": "Papua-Neuguinea",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JO",
+      "name": "Jordanien",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BO",
+      "name": "Bolivien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AE",
+      "name": "Vereinigte Arabische Emirate",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CZ",
+      "name": "Tschechien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DO",
+      "name": "Dominikanische Republik",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SE",
+      "name": "Schweden",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TJ",
+      "name": "Tadschikistan",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GR",
+      "name": "Griechenland",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AZ",
+      "name": "Aserbaidschan",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CU",
+      "name": "Kuba",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HU",
+      "name": "Ungarn",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AT",
+      "name": "Österreich",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BY",
+      "name": "Weißrussland",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CH",
+      "name": "Schweiz",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "family": "teal",
+      "hex": "#176b76",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HK",
+      "name": "Hongkong",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LY",
+      "name": "Libyen",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KG",
+      "name": "Kirgisistan",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "RS",
+      "name": "Serbien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CF",
+      "name": "Zentralafrikanische Republik",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BG",
+      "name": "Bulgarien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CG",
+      "name": "Kongo",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SG",
+      "name": "Singapur",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DK",
+      "name": "Dänemark",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FI",
+      "name": "Finnland",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NO",
+      "name": "Norwegen",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LB",
+      "name": "Libanon",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PS",
+      "name": "Palästina",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IE",
+      "name": "Irland",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SK",
+      "name": "Slowakei",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NZ",
+      "name": "Neuseeland",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MR",
+      "name": "Mauretanien",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GE",
+      "name": "Georgien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "HR",
+      "name": "Kroatien",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ER",
+      "name": "Eritrea",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MN",
+      "name": "Mongolei",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BA",
+      "name": "Bosnien und Herzegowina",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "QA",
+      "name": "Katar",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AM",
+      "name": "Armenien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LT",
+      "name": "Litauen",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "JM",
+      "name": "Jamaika",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MD",
+      "name": "Moldawien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GA",
+      "name": "Gabun",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AL",
+      "name": "Albanien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SI",
+      "name": "Slowenien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LV",
+      "name": "Lettland",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MK",
+      "name": "Nordmazedonien",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GQ",
+      "name": "Äquatorialguinea",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CY",
+      "name": "Zypern",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TL",
+      "name": "Osttimor",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "EE",
+      "name": "Estland",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad und Tobago",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SZ",
+      "name": "Swasiland",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DJ",
+      "name": "Dschibuti",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KM",
+      "name": "Komoren",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FJ",
+      "name": "Fidschi",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SB",
+      "name": "Salomonen",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MO",
+      "name": "Macao",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LU",
+      "name": "Luxemburg",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MV",
+      "name": "Malediven",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "CV",
+      "name": "Kap Verde",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "family": "red",
+      "hex": "#a43139",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "IS",
+      "name": "Island",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "ST",
+      "name": "São Tomé und Príncipe",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "WS",
+      "name": "Samoa",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LC",
+      "name": "St. Lucia",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SC",
+      "name": "Seychellen",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KI",
+      "name": "Kiribati",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VC",
+      "name": "St. Vincent und die Grenadinen",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "FM",
+      "name": "Mikronesien",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AG",
+      "name": "Antigua und Barbuda",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TO",
+      "name": "Tonga",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "family": "brown",
+      "hex": "#594035",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "family": "black",
+      "hex": "#202526",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "KN",
+      "name": "St. Kitts und Nevis",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MH",
+      "name": "Marshallinseln",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "family": "burgundy",
+      "hex": "#632437",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "PW",
+      "name": "Palau",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "NR",
+      "name": "Nauru",
+      "family": "navy",
+      "hex": "#142b49",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "TV",
+      "name": "Tuvalu",
+      "family": "blue",
+      "hex": "#224d86",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    },
+    {
+      "code": "VA",
+      "name": "Vatikanstadt",
+      "family": "green",
+      "hex": "#184937",
+      "source": "https://passport2liberty.org/passport-colors",
+      "officialCrossCheck": null
+    }
+  ]
+}

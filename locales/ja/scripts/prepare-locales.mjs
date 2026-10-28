@@ -1,0 +1,152 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+const repo=path.resolve(import.meta.dirname,'../../..');
+const rows=[
+['Reincarnation Passport Home','転生パスポートのホーム','Startseite des Wiedergeburtspasses','Accueil du passeport de réincarnation','Início do passaporte de reencarnação'],
+['Rebirth Passport','転生パスポート','Wiedergeburtspass','Passeport de réincarnation','Passaporte de reencarnação'],
+['REBIRTH PASSPORT','転生パスポート','WIEDERGEBURTSPASS','PASSEPORT DE RÉINCARNATION','PASSAPORTE DE REENCARNAÇÃO'],
+['How does it work?','仕組み','So funktioniert es','Fonctionnement','Como funciona'],
+['NEXT LIFE, NEW COORDINATES','転生先の国を抽選','ZUFÄLLIGES LAND FÜR DAS NÄCHSTE LEBEN','TIRER UN PAYS POUR LA PROCHAINE VIE','SORTEAR UM PAÍS PARA A PRÓXIMA VIDA'],
+['In your next life,<br>where will <em>you begin?</em>','次の人生の<br><em>国を抽選</em>','Ein Land für dein<br><em>nächstes Leben ziehen</em>','Tirer un pays pour<br><em>ta prochaine vie</em>','Sortear um país para<br><em>sua próxima vida</em>'],
+['A different you is waiting somewhere on Earth.<br>Let chance choose your new country and passport.','199の国・地域から抽選します。<br>人口比例または均等確率を選べます。','Ziehe aus 199 Ländern und Gebieten.<br>Wähle Bevölkerungsgewichte oder gleiche Chancen.','Tire parmi 199 pays et territoires.<br>Choisis une pondération démographique ou des chances égales.','Sorteie entre 199 países e territórios.<br>Escolha pesos por população ou chances iguais.'],
+['Draw mode','抽選方式','Ziehungsmodus','Mode de tirage','Modo de sorteio'],
+['By population','人口比例','Nach Bevölkerung','Par population','Por população'],
+['Equal chance','均等確率','Gleiche Chancen','Chances égales','Chances iguais'],
+['Discover my next life','転生先を抽選','Nächstes Leben ziehen','Tirer ma prochaine vie','Sortear minha próxima vida'],
+['A new life in seconds. No sign-up.','登録不要。数秒で抽選。','In wenigen Sekunden. Ohne Anmeldung.','En quelques secondes. Sans inscription.','Em segundos. Sem cadastro.'],
+['✦ Maybe on the other side of Earth','✦ 世界199の国・地域','✦ 199 Länder und Gebiete','✦ 199 pays et territoires','✦ 199 países e territórios'],
+['YOUR NEXT CHAPTER','次の人生','DEIN NÄCHSTES LEBEN','TA PROCHAINE VIE','SUA PRÓXIMA VIDA'],
+['THE WORLD IS YOURS','抽選用パスポート','SPIELPASS','PASSEPORT DE JEU','PASSAPORTE DO JOGO'],
+['TO A NEW LIFE','次の人生へ','ZUM NÄCHSTEN LEBEN','POUR UNE AUTRE VIE','PARA OUTRA VIDA'],
+['ONE WORLD','世界の国','LÄNDER DER WELT','PAYS DU MONDE','PAÍSES DO MUNDO'],
+['ENDLESS POSSIBILITIES','199の抽選結果','199 ERGEBNISSE','199 RÉSULTATS','199 RESULTADOS'],
+['REBIRTH IMMIGRATION OFFICE','転生パスポート発行所','AUSGABE DES SPIELPASSES','BUREAU DU PASSEPORT DE JEU','EMISSÃO DO PASSAPORTE DO JOGO'],
+['Finding your next coordinates','転生先を抽選中','Dein Land wird gezogen','Tirage du pays en cours','Sorteando seu país'],
+['Taking a little trip around Earth.','国・地域を確認しています。','Länder und Gebiete werden geprüft.','Vérification des pays et territoires.','Verificando países e territórios.'],
+['YOUR NEXT LIFE HAS ARRIVED','抽選結果','DEIN ERGEBNIS','TON RÉSULTAT','SEU RESULTADO'],
+['Your next life is…','次の人生の国は…','Dein nächstes Leben beginnt in…','Ta prochaine vie commence en…','Sua próxima vida começa em…'],
+['Ready to step into your new life?','抽選結果のパスポートです。','Dein Pass zum gezogenen Land.','Le passeport de ton pays tiré au sort.','O passaporte do país sorteado.'],
+['Fictional passport · JUST FOR FUN','架空のパスポート · 娯楽用','Fiktiver Pass · ZUM SPIELEN','Passeport fictif · POUR JOUER','Passaporte fictício · DIVERSÃO'],
+['NEXT LIFE<br>ENTRY APPROVED<br>APPROVED ✓','次の人生<br>ゲーム内発行<br>発行済み ✓','NÄCHSTES LEBEN<br>IM SPIEL AUSGESTELLT<br>AUSGESTELLT ✓','PROCHAINE VIE<br>ÉMIS DANS LE JEU<br>ÉMIS ✓','PRÓXIMA VIDA<br>EMITIDO NO JOGO<br>EMITIDO ✓'],
+['Boarding pass for a new life','次の人生の搭乗券','Bordkarte zum nächsten Leben','Carte pour la prochaine vie','Cartão para a próxima vida'],
+['ONE WAY','片道','EINFACH','ALLER SIMPLE','SÓ IDA'],
+['>FROM<','>出発<','>VON<','>DÉPART<','>ORIGEM<'],
+['>TO<','>到着<','>NACH<','>ARRIVÉE<','>DESTINO<'],
+['Here and now','現在地','Hier und jetzt','Ici et maintenant','Aqui e agora'],
+['Chance of this country','この国の抽選確率','Chance dieses Landes','Chance de ce pays','Chance deste país'],
+['Passport cover color','パスポートの色','Passfarbe','Couleur du passeport','Cor do passaporte'],
+['Continent','大陸','Kontinent','Continent','Continente'],
+['Population','人口','Bevölkerung','Population','População'],
+['Wherever you begin,<br>this life is your story.','表示はゲームの結果です。<br>実際の国籍や出生地を予測しません。','Das Ergebnis gehört zum Spiel.<br>Es sagt keinen Geburtsort und keine Staatsangehörigkeit voraus.','Ce résultat appartient au jeu.<br>Il ne prédit ni lieu de naissance ni nationalité.','Este é um resultado do jogo.<br>Não prevê local de nascimento nem nacionalidade.'],
+['A random life. A great conversation starter.','リンクでこの結果を共有できます。','Teile dieses Ergebnis per Link.','Partage ce résultat par lien.','Compartilhe este resultado por link.'],
+['Share my passport','パスポートを共有','Pass teilen','Partager le passeport','Compartilhar passaporte'],
+['Save JPG','JPGを保存','JPG speichern','Enregistrer en JPG','Salvar JPG'],
+['Copy link','リンクをコピー','Link kopieren','Copier le lien','Copiar link'],
+['Try another life','もう一度抽選','Erneut ziehen','Tirer à nouveau','Sortear novamente'],
+['Where will your friends begin?','友達の抽選結果は？','Welches Land ziehen deine Freunde?','Quel pays tireront tes amis ?','Qual país seus amigos vão sortear?'],
+['Share your passport and compare your next lives.','パスポートを共有して結果を比べられます。','Teile deinen Pass und vergleicht eure Ergebnisse.','Partage ton passeport et comparez vos résultats.','Compartilhe o passaporte e compare os resultados.'],
+['A LITTLE CHANCE, A WHOLE NEW WORLD','国・地域の一覧','LÄNDER UND GEBIETE','PAYS ET TERRITOIRES','PAÍSES E TERRITÓRIOS'],
+['So many ways to begin.','パスポートの例','Beispielpässe','Exemples de passeports','Exemplos de passaportes'],
+['Browse all passports','すべての国を見る','Alle Pässe ansehen','Voir tous les passeports','Ver todos os passaportes'],
+['✧ Every passport holds a different story.','✧ 199の国・地域を収録。','✧ 199 Länder und Gebiete.','✧ 199 pays et territoires.','✧ 199 países e territórios.'],
+['Inspired by real passport cover colors.','実際のパスポートの色を参考にしています。','An tatsächlichen Passfarben orientiert.','Inspiré des couleurs réelles des passeports.','Cores baseadas em passaportes reais.'],
+['One chance. A whole new life.','国・地域のランダム抽選','Zufällige Länderziehung','Tirage aléatoire de pays','Sorteio aleatório de países'],
+['Data sources · Open source','データ出典 · オープンソース','Datenquellen · Open Source','Sources de données · Logiciels libres','Fontes de dados · Código aberto'],
+['BEHIND THE CHANCE','抽選確率について','ZUR WAHRSCHEINLICHKEIT','À PROPOS DES PROBABILITÉS','SOBRE AS PROBABILIDADES'],
+['There is a method behind the chance.','抽選の仕組み','So wird gezogen','Comment fonctionne le tirage','Como o sorteio funciona'],
+['Population mode weights 199 countries and passport-issuing territories by their population. More populous places are more likely to be drawn.','人口比例では、199の国・パスポート発行地域を人口で重み付けします。人口の多い地域ほど選ばれやすくなります。','Im Bevölkerungsmodus werden 199 Länder und passausgebende Gebiete nach ihrer Bevölkerung gewichtet. Bevölkerungsreichere Orte werden häufiger gezogen.','Le mode démographique pondère 199 pays et territoires émetteurs de passeports selon leur population. Les lieux plus peuplés sont plus souvent tirés.','O modo por população usa a população como peso para 199 países e territórios emissores de passaportes. Lugares mais populosos têm maior chance.'],
+['These are game probabilities, not actual birth or citizenship probabilities. Equal mode gives every place the same chance.','これはゲーム内の確率であり、実際の出生地や国籍の確率ではありません。均等方式ではすべての地域が同じ確率です。','Dies sind Spielwahrscheinlichkeiten, keine tatsächlichen Geburts- oder Staatsangehörigkeitswahrscheinlichkeiten. Im gleichen Modus hat jeder Ort dieselbe Chance.','Ce sont des probabilités de jeu, pas des probabilités réelles de naissance ou de nationalité. Le mode égal donne la même chance à chaque lieu.','Estas são probabilidades do jogo, não chances reais de nascimento ou cidadania. O modo igual dá a mesma chance a cada lugar.'],
+['Excluded places are removed and the remaining weights are normalized. Shared links preview your passport, while visitors start their own game on the home screen.','除外した地域を取り除き、残りの重みを正規化します。共有リンクではパスポートを表示し、訪問者はホームから自分の抽選を始められます。','Ausgeschlossene Orte werden entfernt; die verbleibenden Gewichte werden neu normiert. Geteilte Links zeigen deinen Pass. Besucher starten ihre eigene Ziehung auf der Startseite.','Les lieux exclus sont retirés et les poids restants sont normalisés. Les liens partagés affichent ton passeport ; les visiteurs lancent leur propre jeu depuis l’accueil.','Lugares excluídos são removidos e os pesos restantes são normalizados. Links compartilhados mostram seu passaporte; visitantes iniciam seu próprio jogo na página inicial.'],
+['Got it','確認','Verstanden','Compris','Entendi'],
+['PASSPORT COLLECTION','パスポート一覧','PASSSAMMLUNG','COLLECTION DE PASSEPORTS','COLEÇÃO DE PASSAPORTES'],
+['Your next-life collection','抽選対象の国・地域','Länder und Gebiete der Ziehung','Pays et territoires du tirage','Países e territórios do sorteio'],
+['Want to skip somewhere? Exclude up to 3 places.','最大3つの国・地域を抽選から除外できます。','Du kannst bis zu 3 Orte ausschließen.','Tu peux exclure jusqu’à 3 lieux.','Você pode excluir até 3 lugares.'],
+['Search countries','国を検索','Länder suchen','Rechercher un pays','Buscar países'],
+['Please enter the country name','国名を入力','Ländernamen eingeben','Saisir le nom du pays','Digite o nome do país'],
+['Excluded: 0 / 3','除外: 0 / 3','Ausgeschlossen: 0 / 3','Exclus : 0 / 3','Excluídos: 0 / 3'],
+['Travel with these settings','この設定を使う','Diese Einstellungen verwenden','Utiliser ces réglages','Usar estas configurações'],
+['Data sources','データ出典','Datenquellen','Sources de données','Fontes de dados'],
+['Country name/population:','国名・人口:','Ländername/Bevölkerung:','Nom du pays/population :','Nome do país/população:'],
+['Collection date 2026-10-24. The statistical base year varies by country.','取得日 2026-10-24。統計の基準年は国ごとに異なります。','Abrufdatum 2026-10-24. Das Bezugsjahr der Statistik variiert je nach Land.','Date de collecte : 2026-10-24. L’année de référence statistique varie selon le pays.','Data de coleta: 2026-10-24. O ano de referência estatística varia por país.'],
+['original used','使用した原本','Verwendete Originaldatei','Original utilisé','Original utilizado'],
+['General passport cover color classification:','通常パスポートの表紙色の分類:','Farbgruppen gewöhnlicher Reisepässe:','Classification des couleurs des passeports ordinaires :','Classificação de cores de passaportes comuns:'],
+['Confirmation date 2026-10-24. Use factual values ​​of color families. Expression colors are approximate values. Cover image, sentence, and page code are not used.','確認日 2026-10-24。色系統の事実情報を使用。表示色は近似値です。表紙画像・文章・ページのコードは使用していません。','Prüfdatum 2026-10-24. Verwendet werden Fakten zu Farbgruppen. Die angezeigten Farben sind Näherungswerte. Titelbilder, Texte und Seitencode wurden nicht übernommen.','Vérifié le 2026-10-24. Seules les données factuelles des familles de couleurs sont utilisées. Les couleurs affichées sont approximatives. Aucune image, phrase ni code de page n’est repris.','Verificado em 2026-10-24. São usados fatos sobre famílias de cores. As cores exibidas são aproximadas. Imagens de capas, textos e código da página não foram reutilizados.'],
+['Check additional cover colors:','表紙色の追加確認:','Zusätzliche Farbprüfung:','Vérification complémentaire des couleurs :','Verificação adicional das cores:'],
+['Republic of Korea Policy Briefing','Republic of Korea Policy Briefing','Republic of Korea Policy Briefing','Republic of Korea Policy Briefing','Republic of Korea Policy Briefing'],
+['Map source data:','地図の元データ:','Quelldaten der Karte:','Données cartographiques :','Dados originais do mapa:'],
+['Public domain.','パブリックドメイン。','Gemeinfrei.','Domaine public.','Domínio público.'],
+['Open-source notices','オープンソースの表示','Open-Source-Hinweise','Mentions des logiciels libres','Avisos de código aberto'],
+['Map data.','地図データ。','Kartendaten.','Données cartographiques.','Dados do mapa.'],
+['Map conversion at build time.','ビルド時の地図変換。','Kartenumwandlung beim Build.','Conversion cartographique à la compilation.','Conversão do mapa durante a compilação.'],
+['Generate OG image at build time.','ビルド時のOG画像生成。','OG-Bilderzeugung beim Build.','Création des images OG à la compilation.','Geração de imagens OG durante a compilação.'],
+['Web font.','ウェブフォント。','Webschrift.','Police web.','Fonte web.'],
+['Build dependency version/license list','ビルド依存関係のバージョン・ライセンス一覧','Versionen und Lizenzen der Build-Abhängigkeiten','Versions et licences des dépendances de compilation','Versões e licenças das dependências de compilação'],
+['Build tool binaries are not distributed on the website.','ビルドツールのバイナリはサイトで配布していません。','Binärdateien der Build-Werkzeuge werden auf der Website nicht verteilt.','Les exécutables des outils de compilation ne sont pas distribués sur le site.','Os binários das ferramentas de compilação não são distribuídos no site.'],
+['Close','閉じる','Schließen','Fermer','Fechar'],
+['I can’t keep count because browser saving is blocked.','ブラウザーの保存が無効のため、回数を保存できません。','Der Zähler kann nicht gespeichert werden, weil der Browserspeicher blockiert ist.','Le stockage du navigateur est bloqué ; le compteur ne peut pas être enregistré.','O armazenamento do navegador está bloqueado; não foi possível salvar a contagem.'],
+['↻ Try again · ${credits.remaining} left','↻ 再抽選 · 残り${credits.remaining}回','↻ Erneut ziehen · ${credits.remaining} übrig','↻ Retirer · ${credits.remaining} restant(s)','↻ Sortear · restam ${credits.remaining}'],
+['No retries left','再抽選の残り回数なし','Keine Ziehungen übrig','Aucun tirage restant','Sem novos sorteios'],
+['${credits.remaining} retries left · share for +2','再抽選 残り${credits.remaining}回 · 共有で+2回','${credits.remaining} Ziehungen übrig · Teilen gibt +2','${credits.remaining} tirage(s) restant(s) · partager donne +2','Restam ${credits.remaining} sorteios · compartilhar dá +2'],
+['Sharing bonus already claimed for this card','このカードの共有ボーナスは受取済み','Teilbonus für diese Karte bereits erhalten','Bonus de partage déjà reçu pour cette carte','Bônus de compartilhamento desta carta já recebido'],
+['One bonus per card · share request or copied link','カードごとに1回 · 共有操作またはリンクのコピー','Ein Bonus je Karte · Teilen aufrufen oder Link kopieren','Un bonus par carte · demande de partage ou lien copié','Um bônus por carta · abrir compartilhamento ou copiar link'],
+['Another life · ${credits.remaining} left','再抽選 · 残り${credits.remaining}回','Erneut ziehen · ${credits.remaining} übrig','Nouveau tirage · ${credits.remaining} restant(s)','Novo sorteio · restam ${credits.remaining}'],
+['View and share my passport','パスポートを表示・共有','Pass anzeigen und teilen','Voir et partager mon passeport','Ver e compartilhar passaporte'],
+[' people','人',' Menschen',' personnes',' pessoas'],
+['Equal chance','均等確率','Gleiche Chancen','Chances égales','Chances iguais'],
+['Population weighted','人口比例','Nach Bevölkerung gewichtet','Pondération démographique','Ponderado por população'],
+[' · ${excluded.length} excluded',' · ${excluded.length}件除外',' · ${excluded.length} ausgeschlossen',' · ${excluded.length} exclus',' · ${excluded.length} excluídos'],
+['My next life:','次の人生の国:','Mein nächstes Leben:','Ma prochaine vie :','Minha próxima vida:'],
+['If you share it with a friend, 2 replays will be added.','共有操作またはリンクのコピーで再抽選が2回追加されます。','Eine Teilaktion oder ein kopierter Link fügt 2 Ziehungen hinzu.','Une action de partage ou un lien copié ajoute 2 tirages.','Uma ação de compartilhamento ou a cópia do link adiciona 2 sorteios.'],
+[' — a new morning?',' — 抽選中',' — wird gezogen',' — tirage en cours',' — sorteando'],
+['Excluded: ${excluded.length} / 3','除外: ${excluded.length} / 3','Ausgeschlossen: ${excluded.length} / 3','Exclus : ${excluded.length} / 3','Excluídos: ${excluded.length} / 3'],
+['There are no search results.','検索結果がありません。','Keine Suchergebnisse.','Aucun résultat.','Nenhum resultado encontrado.'],
+[' Excluding','を除外',' ausschließen',' à exclure',' a excluir'],
+['Share Bonus! 2 replays have been added.','共有ボーナスで再抽選を2回追加しました。','Teilbonus: 2 Ziehungen hinzugefügt.','Bonus de partage : 2 tirages ajoutés.','Bônus de compartilhamento: 2 sorteios adicionados.'],
+['I have already received the bonus for this passport.','このパスポートのボーナスは受取済みです。','Der Bonus für diesen Pass wurde bereits erhalten.','Le bonus de ce passeport a déjà été reçu.','O bônus deste passaporte já foi recebido.'],
+['Copying is blocked.','コピーがブロックされました。','Kopieren ist blockiert.','La copie est bloquée.','A cópia está bloqueada.'],
+['Where will you be reborn?','次の人生の国を抽選しませんか？','Welches Land ziehst du für dein nächstes Leben?','Quel pays tireras-tu pour ta prochaine vie ?','Qual país você vai sortear para sua próxima vida?'],
+['The sharing window could not be opened. Please use copy link.','共有画面を開けませんでした。リンクのコピーをお使いください。','Das Teilen konnte nicht geöffnet werden. Bitte kopiere den Link.','Impossible d’ouvrir le partage. Utilise la copie du lien.','Não foi possível abrir o compartilhamento. Use a cópia do link.'],
+['The sharing window cannot be opened in this browser. Please use copy link.','このブラウザーでは共有画面を開けません。リンクのコピーをお使いください。','Dieser Browser unterstützt das Teilen nicht. Bitte kopiere den Link.','Ce navigateur ne permet pas d’ouvrir le partage. Utilise la copie du lien.','Este navegador não permite abrir o compartilhamento. Use a cópia do link.'],
+['! Where will you be born again?','。次の人生の国を抽選しませんか？','! Welches Land ziehst du?',' ! Quel pays tireras-tu ?','! Qual país você vai sortear?'],
+['The sharing window is blocked. Please use copy link.','共有画面がブロックされました。リンクのコピーをお使いください。','Das Teilfenster ist blockiert. Bitte kopiere den Link.','La fenêtre de partage est bloquée. Utilise la copie du lien.','A janela de compartilhamento está bloqueada. Use a cópia do link.'],
+['JPG I started saving.','JPGの保存を開始しました。','JPG-Speicherung gestartet.','Enregistrement JPG lancé.','Salvamento do JPG iniciado.'],
+['Where next?','転生先の国を抽選','Land für das nächste Leben','Tirer un pays de réincarnation','Sortear país da próxima vida'],
+['Failed to load country information. Please refresh.','国の情報を読み込めませんでした。再読み込みしてください。','Länderdaten konnten nicht geladen werden. Bitte lade die Seite neu.','Impossible de charger les pays. Recharge la page.','Não foi possível carregar os países. Recarregue a página.'],
+['Refresh and start again','再読み込みして開始','Neu laden und starten','Recharger et recommencer','Recarregar e começar'],
+['A passport to your next life, drawn from 199 places using population weights.','199の国・地域から人口比例で転生先を抽選するゲーム。','Ziehe ein Land für dein nächstes Leben aus 199 Orten nach Bevölkerungsgewichten.','Un jeu qui tire un pays de réincarnation parmi 199 lieux avec des poids démographiques.','Jogo que sorteia um país para sua próxima vida entre 199 lugares por população.'],
+[' is your next-life country. Base population-weighted chance:','が次の人生の国です。基本人口比例確率:',' ist dein gezogenes Land. Grundchance nach Bevölkerung:',' est le pays tiré pour ta prochaine vie. Chance de base selon la population :',' é o país sorteado para sua próxima vida. Chance básica por população:'],
+['. Start your own next life.','。自分の抽選を始められます。','. Starte deine eigene Ziehung.','. Lance ton propre tirage.','. Inicie seu próprio sorteio.'],
+['Your next country','次の人生の国','Dein nächstes Land','Ton prochain pays','Seu próximo país'],
+['A NEW LIFE AWAITS','次の人生の国','NÄCHSTES LAND','PROCHAIN PAYS','PRÓXIMO PAÍS'],
+['A country I met by chance','抽選で選ばれた国','Zufällig gezogenes Land','Pays tiré au hasard','País sorteado ao acaso'],
+['Basic population proportional probability / basis before country exclusion','基本人口比例確率 · 国の除外前','Grundchance nach Bevölkerung · vor Ausschlüssen','Chance démographique de base · avant exclusions','Chance básica por população · antes das exclusões'],
+['Discover your next life','転生先を抽選','Ziehe dein nächstes Land','Tire ton prochain pays','Sorteie seu próximo país'],
+['One coincidence, a whole new life.','199の国・地域から抽選','Aus 199 Ländern und Gebieten ziehen','Tirer parmi 199 pays et territoires','Sortear entre 199 países e territórios'],
+['my next life,','次の人生の国','Mein nächstes Land','Mon prochain pays','Meu próximo país'],
+['Rebirth commemorative passport · FOR FUN','転生記念パスポート · 娯楽用','Fiktiver Spielpass · ZUM SPIELEN','Passeport fictif · POUR JOUER','Passaporte fictício · DIVERSÃO'],
+['PASSPORT','パスポート','REISEPASS','PASSEPORT','PASSAPORTE'],
+['REBIRTH','転生','WIEDERGEBURT','RÉINCARNATION','REENCARNAÇÃO']
+];
+const configs={ja:{index:1,country:'jpn',intl:'ja-JP',colors:['濃紺','バーガンディー','フォレストグリーン','ロイヤルブルー','クラシックレッド','黒','ディープティール','チョコレートブラウン'],regions:['アジア','ヨーロッパ','アフリカ','アメリカ','オセアニア']},de:{index:2,country:'deu',intl:'de-DE',colors:['Dunkelblau','Burgunderrot','Waldgrün','Königsblau','Klassisches Rot','Schwarz','Dunkles Petrol','Schokoladenbraun'],regions:['Asien','Europa','Afrika','Amerika','Ozeanien']},fr:{index:3,country:'fra',intl:'fr-FR',colors:['Bleu marine','Bordeaux','Vert forêt','Bleu roi','Rouge classique','Noir','Bleu canard','Brun chocolat'],regions:['Asie','Europe','Afrique','Amériques','Océanie']},pt:{index:4,country:'por',intl:'pt-BR',colors:['Azul-marinho','Bordô','Verde-floresta','Azul-real','Vermelho clássico','Preto','Verde-petróleo','Marrom-chocolate'],regions:['Ásia','Europa','África','Américas','Oceania']}};
+// Longest first; placeholders prevent later rows from translating an already translated fragment.
+function translate(text,column){const replacements=[];for(const row of [...rows].sort((a,b)=>b[0].length-a[0].length)){const marker='@@COUNTRY_TRANSLATION_'+replacements.length+'@@';if(text.includes(row[0])){text=text.split(row[0]).join(marker);replacements.push([marker,row[column]]);}}for(const [marker,value] of replacements)text=text.split(marker).join(value);return text;}
+for(const [lang,cfg] of Object.entries(configs)){
+ const dir=path.join(repo,'locales',lang);await fs.mkdir(dir,{recursive:true});
+ for(const name of ['src','data'])await fs.cp(path.join(repo,'locales/en',name),path.join(dir,name),{recursive:true});
+ await fs.mkdir(path.join(dir,'scripts'),{recursive:true});
+ let html=translate(await fs.readFile(path.join(repo,'locales/en/src/index.html'),'utf8'),cfg.index).replace('<html lang="en">','<html lang="'+lang+'">');
+ html=html.replace(/© 2026 [^<]+/,'© 2026 REBIRTH PASSPORT');
+ await fs.writeFile(path.join(dir,'src/index.html'),html);
+ let app=translate(await fs.readFile(path.join(repo,'locales/en/src/app.js'),'utf8'),cfg.index).replaceAll('rebirth-en-settings','rebirth-'+lang+'-settings').replaceAll('"en-US"',JSON.stringify(cfg.intl)).replaceAll('c.name.includes(query)','c.name.toLocaleLowerCase().includes(query)');
+ await fs.writeFile(path.join(dir,'src/app.js'),app);
+ // Same accounting behavior with an independent locale storage namespace, as in the existing locales.
+ let credits=(await fs.readFile(path.join(repo,'locales/en/src/credits.js'),'utf8')).replaceAll('rebirth-country-en-credits-v1','rebirth-country-'+lang+'-credits-v1');await fs.writeFile(path.join(dir,'src/credits.js'),credits);
+ let build=await fs.readFile(path.join(repo,'locales/en/scripts/build.mjs'),'utf8');
+ build=build.replace('name:c.name.common','name:c.translations?.'+cfg.country+'?.common||new Intl.DisplayNames(['+JSON.stringify(lang)+'],{type:"region"}).of(c.cca2)||c.name.common');
+ build=build.replace(/const colorNames = .*?;/, 'const colorNames = '+JSON.stringify(Object.fromEntries(['navy','burgundy','green','blue','red','black','teal','brown'].map((k,i)=>[k,cfg.colors[i]])))+';');
+ build=build.replace(/const regions = .*?;/,'const regions = '+JSON.stringify(Object.fromEntries(['Asia','Europe','Africa','Americas','Oceania'].map((k,i)=>[k,cfg.regions[i]])))+';');
+ build=translate(build,cfg.index).replaceAll('rebirth_country/en','rebirth_country/'+lang);
+ await fs.writeFile(path.join(dir,'scripts/build.mjs'),build);
+ await fs.writeFile(path.join(dir,'package.json'),JSON.stringify({name:'rebirth-country-'+lang,version:'1.0.0',private:true,type:'module',scripts:{build:'node scripts/build.mjs'}},null,2)+'\n');
+}
+console.log('Prepared ja/de/fr/pt complete source locales. Original data, CSS, licenses and engine copied byte-for-byte.');

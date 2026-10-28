@@ -42,8 +42,16 @@ GitHub Pages: Settings → Pages → Source를 **Deploy from a branch**, 브랜�
 
 ## 다국어 통합
 
-하나의 리포지토리에서 `/ko/`, `/en/`, `/zh/`, `/es/`를 함께 배포한다. 기존 루트 한국어 주소와 공유 링크는 유지한다. 언어별 소스는 `locales/`이며 `npm run build`가 전체 `docs/`와 모든 언어·결과·출처 페이지를 포함한 사이트맵을 생성한다.
+하나의 리포지토리에서 `/ko/`, `/en/`, `/es/`, `/zh/`, `/ja/`, `/de/`, `/fr/`, `/pt/`를 함께 배포한다. 기존 루트 한국어 주소와 공유 링크는 유지한다. 언어별 소스는 `locales/`이며 `npm run build`가 전체 `docs/`와 모든 언어·결과·출처 페이지를 포함한 사이트맵을 생성한다.
 
-메인 및 결과 페이지의 언어 링크로 수동 전환한다. 저장한 언어가 없으면 GeoJS 국가 조회로 추천하고, 실패하면 브라우저 언어를 사용한다. 강제 리다이렉트는 하지 않는다. IP 자체는 저장하지 않으며 국가코드만 세션에 임시 보관한다. 외부 서비스 이용 안내는 화면에 표시한다. GeoJS 공식 문서: https://www.geojs.io/docs/v1/endpoints/country/
+메인 및 결과 페이지의 언어 링크로 동일한 결과를 유지하며 수동 전환한다. 결과마다 8개 언어의 reciprocal hreflang과 canonical을 제공하며, 루트 한국어 200개 및 언어별 200개, 총 1,800개 HTML 주소를 사이트맵에 담는다. 저장한 언어가 없으면 GeoJS 국가 조회로 추천하고, 실패하면 브라우저 언어를 사용한다. 강제 리다이렉트는 하지 않는다. IP 자체는 저장하지 않으며 국가코드만 세션에 임시 보관한다. 외부 서비스 이용 안내는 화면에 표시한다. GeoJS 공식 문서: https://www.geojs.io/docs/v1/endpoints/country/
 
 공유는 기기 기본 공유와 링크 복사를 사용한다. Kakao SDK·키는 포함하지 않는다. 이미지 출처와 라이선스·변경 고지를 모든 언어에서 보존한다.
+
+## 2026-10-28 검증과 태그 정책
+
+`UPDATE.md`에 이번 8개 언어 확장 범위와 로컬 검증을 기록한다. `tests/fixtures/preserved-hashes.json`은 확장 전 1,493개 데이터·라이선스·이미지·robots 파일의 검증 기준이다. 텍스트 93개는 원본 Git blob의 LF EOL 정규화 SHA-256, 바이너리 이미지 1,400개는 원시 SHA-256으로 검사한다. 원본 Windows 작업트리 바이트 1,493개는 별도 릴리스 감사에 보존한다. 원본 인구·여권색 데이터는 빌드가 재기록하지 않는다. 기존 OG 이미지는 보존하며 새 언어 OG는 입력 SVG 해시가 바뀔 때 갱신한다.
+
+광고·분석 네 통합은 단일 `data-publisher-bootstrap`에서만 로드한다. HTTPS `nanalab.kr`, 그 하위 도메인, `nanacompany.github.io`만 허용한다. HTTP, localhost, 127.0.0.1, IPv6 loopback, file URL에서는 네 외부 스크립트를 생성하지 않는다. 정적 GTM noscript iframe은 프로토콜 검사가 불가능하므로 비활성 표식으로 대체한다. 브라우저 JS 비활성 시 분석 fallback 요청을 하지 않는다. GA 자동 page_view는 끄고 쿼리·해시를 제외한 origin/path와 빈 referrer로 방문 이벤트를 한 번 보낸다.
+
+`npm test`는 실제 8개 앱 컨트롤러의 추첨·공유 취소/실패 경계와 보너스, 확률 모델, 1,800개 경로·메타·정적 자산, 기존 원본 해시 및 publisher VM 동작을 검증한다. 브라우저 표시와 실제 플랫폼 전송은 별도 검증이다.
