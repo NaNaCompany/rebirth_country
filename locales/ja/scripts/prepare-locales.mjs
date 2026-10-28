@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 const repo=path.resolve(import.meta.dirname,'../../..');
 const rows=[
+["Country data unavailable · refresh the page","国データを読み込めません · ページを再読み込みしてください","Länderdaten nicht verfügbar · Seite neu laden","Données des pays indisponibles · recharge la page","Dados dos países indisponíveis · recarregue a página"],
 ['Reincarnation Passport Home','転生パスポートのホーム','Startseite des Wiedergeburtspasses','Accueil du passeport de réincarnation','Início do passaporte de reencarnação'],
 ['Rebirth Passport','転生パスポート','Wiedergeburtspass','Passeport de réincarnation','Passaporte de reencarnação'],
 ['REBIRTH PASSPORT','転生パスポート','WIEDERGEBURTSPASS','PASSEPORT DE RÉINCARNATION','PASSAPORTE DE REENCARNAÇÃO'],

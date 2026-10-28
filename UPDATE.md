@@ -32,3 +32,12 @@ All HTML uses one guarded bootstrap for GTM `GTM-NV2WWQXB`, GA `G-2ZYSF0173P`, A
 Browser interaction, native platform delivery, Git commit/push, GitHub Pages deployment and served-production readback are coordinated by the parent release task and are not claimed here. Clipboard/popup preparation is not proof of a message being sent.
 
 - Repeat-build determinism check passed: all 4,215 files in the complete docs tree were byte-identical before/after a full rebuild. No output-file difference remained.
+## 2026-10-28 follow-up: Draw readiness guard
+
+Public browser QA found that the draw control could be clicked before the application module and country-data request were ready. The early click was ignored, requiring another click after initialization.
+
+All eight source editions now render the draw button disabled with `aria-busy="true"` in the initial HTML. The controller enables it only after listeners are registered and all 199 country records and sample cards are ready. A failed response or malformed/empty country data keeps the button disabled, ends its busy state and displays a persistent translated instruction to refresh the page. No draw credit is consumed before readiness or after a failed load.
+
+The controller suite adds delayed-fetch tests across all eight languages, confirming that an early click cannot consume credit and the first enabled click produces a result. Failed-response and empty-data cases are checked separately in every language. Every generated home/result document is also checked for the initial disabled markup. Final hotfix tests run on Windows; browser recheck and deployment remain with the parent task.
+
+Hotfix validation: 16 tests passed, 0 failed on Windows. Full rebuild passed; all 4,224 docs files were byte-identical after the repeat build. All 1,800 initial draw guards, existing canonical/hreflang/sitemap checks, original model weights and all 1,493 raw preservation audit hashes passed. No Git publication or browser recheck was performed by this subtask.
